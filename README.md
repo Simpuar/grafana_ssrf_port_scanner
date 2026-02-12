@@ -31,6 +31,7 @@ python3 grafana_ssrf_scanner.py -u http://grafana:3000 --token glsa_xxx -t 192.1
 | `-t, --target` | Target host to scan (required) |
 | `-p, --ports` | Ports: `80,443` or `80-90` or both (required) |
 | `--token` | Grafana token (optional; proxy uses it) |
+| `-H, --header` | Extra header (e.g. `-H "X-Foo: bar"`); can be repeated |
 | `-o, --output` | Write results JSON to file |
 | `-v, --verbose` | Show response snippet for open ports |
 
